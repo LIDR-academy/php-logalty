@@ -1,0 +1,33 @@
+.idea-card {
+  display: flex;
+  width: 240px;
+  flex: 1;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+.idea-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.idea-title {
+  color: #1e1e1e;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.48px;
+  margin: 0 0 8px;
+}
+.idea-details {
+  color: #757575;
+  font-size: 16px;
+  line-height: 22px;
+}
+.idea-details p {
+  margin: 0 0 8px;
+}
+@media (max-width: 991px) {
+  .idea-card {
+    flex-basis: 100%;
+  }
+}
